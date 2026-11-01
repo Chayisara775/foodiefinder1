@@ -1,7 +1,13 @@
+const API_BASE = "https://foodie-finder-api.vercel.app";
+
 async function request(path) {
-  const response = await fetch(path);
+  const response = await fetch(`${API_BASE}${path}`);
   const body = await response.json().catch(() => ({}));
-  if (!response.ok) throw new Error(body.message || "เกิดข้อผิดพลาด กรุณาลองอีกครั้ง");
+
+  if (!response.ok) {
+    throw new Error(body.message || "เกิดข้อผิดพลาด กรุณาลองอีกครั้ง");
+  }
+
   return body;
 }
 export const fetchMeals = (params = {}) => {
