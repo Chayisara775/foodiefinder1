@@ -31,14 +31,6 @@ app.use((req, res, next) => {
 });
 
 const PORT = 3000;
-
-app.use(express.json());
-app.use(express.static('public'));
-
-app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/public/index.html');
-});
-
 const API_URL =
   'https://www.themealdb.com/api/json/v1/1/search.php?s=chicken';
 
