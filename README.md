@@ -14,7 +14,7 @@ GitHub Repository: https://github.com/Chayisara775/foodiefinder1
 
 ### 7.1 ตารางส่วนร่วม
 
-| ชื่อ-สกุล | รหัสนักศึกษา | ชิ้นงานที่รับผิดชอบ (ไฟล์ / component / route / DSA) | ช่วงที่นำเสนอในคลิป |
+| ชื่อ-สกุล | รหัสนักศึกษา | ชิ้นงานที่รับผิดชอบ (ไฟล์ / component / route / DSA) |
 | :--- | :--- | :--- | :--- |
 | ชยิสรา ปุนบุดดา | [681310775] | frontend/src/App.jsx, frontend/src/components/Popup.jsx (ระบบ Frontend, UX หน้าแสดงผล และฟีเจอร์เลือกเมนูแบบป๊อปอัพตามคำแนะนำ) |
 | นิรชา คำสอง | [681310783] | backend/server.js, frontend/src/components/ComponentTree.jsx (Express Backend หน้าที่ Proxy, Validate ข้อมูล, ซ่อน API Key และโครงสร้าง Component Tree) |
